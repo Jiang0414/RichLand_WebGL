@@ -56,7 +56,6 @@
       }
 	  
 	  function ResetCanvas(){
-		console.log("更改螢幕大小");
 		canvas.style.width = window.innerWidth + 'px';
         canvas.style.height = (window.innerWidth*9) / 16 + 'px';
 	  }
